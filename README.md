@@ -87,13 +87,12 @@ Sample JSON Output:
 ```
 ## 🚀 Working Prototype
 
-This section shows the **Input → Response → Graph** layout of the API in action:
+This section shows how the API works — from input request to the response result:
 
 <table>
   <tr>
-    <th style="text-align:center;">Input</th>
-    <th style="text-align:center;">Response</th>
-    <th style="text-align:center;"> <span style="color:#4285F4">G</span><span style="color:#EA4335">r</span><span style="color:#FBBC05">a</span><span style="color:#34A853">p</span><span style="color:#4285F4">h</span> </th>
+    <th style="text-align:center;">📥 Input</th>
+    <th style="text-align:center;">📤 Response</th>
   </tr>
   <tr>
     <td align="center">
@@ -101,9 +100,6 @@ This section shows the **Input → Response → Graph** layout of the API in act
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/0d0580e2-f8c1-4c2f-ba24-1c7007facb87" alt="Response" width="100%">
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/0e37c119-abc0-45da-a8d4-35d429aaa6f0" alt="Graph" width="100%">
     </td>
   </tr>
 </table>
