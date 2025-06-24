@@ -24,7 +24,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 - lstm_model.keras       # Saved Keras model file
 - README.md              # Project documentation
 
-#### Setup & Installation
+### Setup & Installation
 
 1. Clone the repository:
 
