@@ -85,8 +85,10 @@ Sample JSON Output:
   "date": "2025-07-01"
 }
 ```
-### Working Prototype 
-## 📸 Input → Response → Graph Overview
+
+## 🚀 Working Prototype
+
+### 📸 **Input → Response → Graph Overview**
 
 This visual demonstrates how the FastAPI-powered stock prediction API works:
 
@@ -97,13 +99,3 @@ This visual demonstrates how the FastAPI-powered stock prediction API works:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/59bf359e-b94c-4594-a8a5-c88f2026135c" alt="Input and Response" width="90%">
 </p>
-
----
-
-### 📈 Graph Output
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0d0580e2-f8c1-4c2f-ba24-1c7007facb87" alt="Graph Output" width="90%">
-</p>
-
-
