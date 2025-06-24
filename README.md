@@ -86,8 +86,7 @@ Sample JSON Output:
 }
 ```
 ## 🚀 Working Prototype
-
-This section shows how the API works — from input request to the response result:
+Example: Predicting AAPL Stock Price
 
 <table>
   <tr>
