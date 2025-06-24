@@ -30,7 +30,30 @@ This project implements a time series forecasting pipeline to predict stock clos
 
 ```bash
 git clone https://github.com/yourusername/stock-lstm-predictor.git
-cd stock-lstm-predictor
+cd stock-lstm-predictor ```bash
 
 
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+
+3. Train the LSTM Model
+
+- Run lstm_model_keras.py to:
+- Download stock data (default: Tesla, "TSLA")
+- Analyze and visualize trends, returns, and volatility
+- Train and evaluate the LSTM model
+- Save the trained model as lstm_model.keras
+
+4. Start the API
+
+```bash
+uvicorn main:app --reload
+
+5. Get a prediction
+
+- Use an API tool or browser to POST to /predict with parameters:
+  - stock_code: e.g. TSLA
+  - date: e.g. 2025-07-01
 
