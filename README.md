@@ -18,7 +18,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 - Handles Both Past and Future Dates: Returns actual prices for past dates, predictions for future dates
 
 ### Project Structure
-```text
+```
 .
 ├── lstm_model_keras.py     # Model training and analysis script
 ├── main.py                 # FastAPI app (exposes /predict endpoint)
@@ -26,10 +26,10 @@ This project implements a time series forecasting pipeline to predict stock clos
 ├── lstm_model.keras        # Pre-trained LSTM model file
 ├── requirements.txt        # Dependencies
 └── README.md               # Documentation
-
+```
 ---
 
-## 🧰 Tech Stack
+### Tech Stack
 
 | Category         | Tools & Libraries         |
 |------------------|---------------------------|
