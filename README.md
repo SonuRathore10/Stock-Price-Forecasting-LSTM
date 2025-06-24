@@ -26,7 +26,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 
 ## Setup & Installation
 
-1. __Clone the repository__
+1. **Clone the repository**
 
 ```
 git clone https://github.com/yourusername/stock-lstm-predictor.git
@@ -38,7 +38,7 @@ cd stock-lstm-predictor
 pip install -r requirements.txt
 ```
 
-3.__Train the LSTM Model__
+3. __Train the LSTM Model__
 
 - Run lstm_model_keras.py to:
 - Download stock data (default: Tesla, "TSLA")
