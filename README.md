@@ -33,12 +33,12 @@ git clone https://github.com/yourusername/stock-lstm-predictor.git
 cd stock-lstm-predictor 
 ```
 
-2. __Install dependencies__
+2. **Install dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-3. __Train the LSTM Model__
+3. **Train the LSTM Model**
 
 - Run lstm_model_keras.py to:
 - Download stock data (default: Tesla, "TSLA")
@@ -46,15 +46,18 @@ pip install -r requirements.txt
 - Train and evaluate the LSTM model
 - Save the trained model as lstm_model.keras
 
-4. __Start the API__
+4. **Start the API**
 
 ```
 uvicorn main:app --reload
 ```
 
-5. __Get a prediction__
+5. **Get a prediction**
 
 - Use an API tool or browser to POST to /predict with parameters:
   - stock_code: e.g. TSLA
   - date: e.g. 2025-07-01
-
+    
+Example using curl:
+``` curl -X POST "http://localhost:8000/predict?stock_code=TSLA&date=2025-07-01"
+```
