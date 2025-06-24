@@ -30,7 +30,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 
 ```bash
 git clone https://github.com/yourusername/stock-lstm-predictor.git
-cd stock-lstm-predictor ```bash
+cd stock-lstm-predictor 
 
 
 2. Install dependencies
