@@ -16,3 +16,11 @@ This project implements a time series forecasting pipeline to predict stock clos
 - Performance Evaluation: Calculates RMSE and visualizes predictions.
 - API Service: FastAPI endpoint for real-time price prediction.
 - Handles Both Past and Future Dates: Returns actual prices for past dates, predictions for future dates
+
+### Project Structure
+├── lstm_model_keras.py    # Model training and analysis notebook/script
+├── main.py                # FastAPI backend with prediction endpoint
+├── predict.py             # Prediction logic and data utilities
+├── lstm_model.keras       # Saved Keras model file
+└── README.md              # Project documentation
+
