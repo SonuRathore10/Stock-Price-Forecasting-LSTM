@@ -32,10 +32,10 @@ This project implements a time series forecasting pipeline to predict stock clos
 git clone https://github.com/yourusername/stock-lstm-predictor.git
 cd stock-lstm-predictor ```
 
-2. Install dependencies 
-
+2. Install dependencies
 ```
-pip install -r requirements.txt ```
+pip install -r requirements.txt
+```
 
 3. Train the LSTM Model
 
@@ -47,8 +47,8 @@ pip install -r requirements.txt ```
 
 4. Start the API
 
-```bash
-uvicorn main:app --reload
+```
+uvicorn main:app --reload ```
 
 5. Get a prediction
 
