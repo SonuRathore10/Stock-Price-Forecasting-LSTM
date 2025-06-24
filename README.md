@@ -120,3 +120,18 @@ Example: Predicting AAPL Stock Price
     </td>
   </tr>
 </table>
+
+## 📈 What You’ll Learn
+	•	Working with raw data and cleaning it for modeling
+	•	Normalizing and structuring time-series data
+	•	Building and training an LSTM deep learning model
+	•	Creating a REST API using FastAPI
+	•	Serving ML models for real-time inference
+ 
+## 🚀 Future Extensions
+
+• Integrate Transformer-based models for improved predictions  
+• Add financial news sentiment using NLP (e.g., FinBERT)  
+• Enable email/SMS alerts for prediction thresholds  
+• Add a backtesting module for strategy evaluation  
+• Secure API with JWT authentication and rate limiting  
