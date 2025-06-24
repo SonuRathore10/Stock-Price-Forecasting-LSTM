@@ -62,3 +62,26 @@ Example using curl:
 ```
 curl -X POST "http://localhost:8000/predict?stock_code=TSLA&date=2025-07-01"
 ```
+
+### How to Use the API
+
+Predict Stock Price
+Endpoint: POST /predict
+
+Parameters (as query):
+  - stock_code: Stock ticker symbol (e.g., TSLA, AAPL)
+  - date: Date for prediction in YYYY-MM-DD format
+
+Response:
+
+- For past/today: Returns actual closing price from Yahoo Finance.
+- For future: Returns predicted price from the LSTM model.
+
+Sample JSON Output:
+```
+{
+  "stock": "TSLA",
+  "predicted_price": 742.15,
+  "date": "2025-07-01"
+}
+```
