@@ -59,5 +59,6 @@ uvicorn main:app --reload
   - date: e.g. 2025-07-01
     
 Example using curl:
-``` curl -X POST "http://localhost:8000/predict?stock_code=TSLA&date=2025-07-01"
+```
+curl -X POST "http://localhost:8000/predict?stock_code=TSLA&date=2025-07-01"
 ```
