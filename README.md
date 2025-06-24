@@ -1,7 +1,7 @@
 # 📈 Stock Price Forecasting API using LSTM (FastAPI)
 A deep learning project for predicting stock closing prices using Long Short-Term Memory (LSTM) networks in TensorFlow/Keras, featuring a FastAPI backend for real-time predictions based on Yahoo Finance data.
 
-## Overview
+## 🧠 Overview
 This project implements a time series forecasting pipeline to predict stock closing prices using historical data from Yahoo Finance. It includes:
 
 - An LSTM-based deep learning model for price prediction.
@@ -9,7 +9,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 - A FastAPI backend for serving predictions via HTTP endpoints.
 - Support for both historical (actual) and future (predicted) closing prices
 
-### Features
+### ✨ Features
 - Automated Data Retrieval: Downloads historical stock data from Yahoo Finance.
 - Data Preprocessing: Cleans, normalizes, and sequences data for time series modeling.
 - Deep Learning Model: Stacked LSTM with dropout layers for regularization.
@@ -17,7 +17,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 - API Service: FastAPI endpoint for real-time price prediction.
 - Handles Both Past and Future Dates: Returns actual prices for past dates, predictions for future dates
 
-### Project Structure
+### 🗂️ Project Structure
 ```
 .
 ├── lstm_model_keras.py     # Model training and analysis script
@@ -29,7 +29,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 ```
 ---
 
-### Tech Stack
+### 🛠️ Tech Stack
 
 | Category         | Tools & Libraries         |
 |------------------|---------------------------|
@@ -42,7 +42,7 @@ This project implements a time series forecasting pipeline to predict stock clos
 
 ---
 
-## Setup & Installation
+## ⚙️ Setup & Installation
 
 1. **Clone the repository**
 
@@ -81,7 +81,7 @@ Example using curl:
 curl -X POST "http://localhost:8000/predict?stock_code=TSLA&date=2025-07-01"
 ```
 
-### How to Use the API
+### 🔌 API Usage
 
 Predict Stock Price
 Endpoint: POST /predict
