@@ -18,11 +18,29 @@ This project implements a time series forecasting pipeline to predict stock clos
 - Handles Both Past and Future Dates: Returns actual prices for past dates, predictions for future dates
 
 ### Project Structure
-- lstm_model_keras.py    # Model training and analysis notebook/script
-- main.py                # FastAPI backend with prediction endpoint
-- predict.py             # Prediction logic and data utilities
-- lstm_model.keras       # Saved Keras model file
-- README.md              # Project documentation
+```text
+.
+├── lstm_model_keras.py     # Model training and analysis script
+├── main.py                 # FastAPI app (exposes /predict endpoint)
+├── predict.py              # Data fetching + prediction logic
+├── lstm_model.keras        # Pre-trained LSTM model file
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
+
+---
+
+## 🧰 Tech Stack
+
+| Category         | Tools & Libraries         |
+|------------------|---------------------------|
+| Language         | Python 3.10+              |
+| Web Framework    | FastAPI                   |
+| ML Framework     | TensorFlow / Keras        |
+| Data Processing  | Pandas, NumPy             |
+| Data Source      | yfinance (Yahoo Finance)  |
+| Deployment       | Uvicorn (ASGI Server)     |
+
+---
 
 ## Setup & Installation
 
