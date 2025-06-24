@@ -85,23 +85,24 @@ Sample JSON Output:
   "date": "2025-07-01"
 }
 ```
-
 ## 🚀 Working Prototype
 
-### 📥 Input
+---
+
+### 📤 Input
 
 This is how the user interacts with the `/predict` endpoint in the Swagger UI:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/59bf359e-b94c-4594-a8a5-c88f2026135c" alt="FastAPI Input Screenshot" width="90%">
+  <img src="https://github.com/user-attachments/assets/59bf359e-b94c-4594-a8a5-c88f2026135c" alt="Input Screenshot" width="90%">
 </p>
 
 ---
 
-### 📤 Response
+### 📬 Response
 
 This is an example of the predicted stock price returned by the API:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0d0580e2-f8c1-4c2f-ba24-1c7007facb87" alt="FastAPI Response Screenshot" width="90%">
+  <img src="https://github.com/user-attachments/assets/0d0580e2-f8c1-4c2f-ba24-1c7007facb87" alt="Response Screenshot" width="90%">
 </p>
