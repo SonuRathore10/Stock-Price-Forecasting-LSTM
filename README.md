@@ -87,22 +87,23 @@ Sample JSON Output:
 ```
 ## 🚀 Working Prototype
 
----
+This section shows the **Input → Response → Graph** layout of the API in action:
 
-### 📤 Input
-
-This is how the user interacts with the `/predict` endpoint in the Swagger UI:
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/59bf359e-b94c-4594-a8a5-c88f2026135c" alt="Input Screenshot" width="90%">
-</p>
-
----
-
-### 📬 Response
-
-This is an example of the predicted stock price returned by the API:
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0d0580e2-f8c1-4c2f-ba24-1c7007facb87" alt="Response Screenshot" width="90%">
-</p>
+<table>
+  <tr>
+    <th style="text-align:center;">Input</th>
+    <th style="text-align:center;">Response</th>
+    <th style="text-align:center;"> <span style="color:#4285F4">G</span><span style="color:#EA4335">r</span><span style="color:#FBBC05">a</span><span style="color:#34A853">p</span><span style="color:#4285F4">h</span> </th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/59bf359e-b94c-4594-a8a5-c88f2026135c" alt="Input" width="100%">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0d0580e2-f8c1-4c2f-ba24-1c7007facb87" alt="Response" width="100%">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0e37c119-abc0-45da-a8d4-35d429aaa6f0" alt="Graph" width="100%">
+    </td>
+  </tr>
+</table>
